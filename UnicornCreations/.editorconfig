@@ -1,8 +1,0 @@
-; EditorConfig is awesome: http://EditorConfig.org
-
-root = true  ; top-most EditorConfig file
-
-; windows-style newlines and tabs for all filetypes
-[*]
-end_of_line = crlf
-indent_style = tab
