@@ -1,0 +1,3 @@
+﻿<nav class="collapse navbar-collapse">
+@Html.Tree(Content.Parse(Request["returnUrl"]) ?? Content.Traverse.StartPage, htmlAttributes: new { id = "menu", @class = "nav navbar-nav" }, appendCreatorNode: true)
+</nav>

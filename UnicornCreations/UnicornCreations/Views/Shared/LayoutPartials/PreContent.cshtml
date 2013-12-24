@@ -1,0 +1,4 @@
+﻿@using UnicornCreations
+@{ Html.DroppableZone("PreContent").Render(); }
+
+@Content.Register.MediaUpload("Image").Configure(fu => { fu.PreferredSize = "wide"; fu.CssClass = "main"; }).Container(Defaults.Containers.Content).Display()

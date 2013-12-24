@@ -1,0 +1,7 @@
+/* NameError: variable @state-success-bg is undefined in C:\Projekt\Privat\Unicorn\Unicorn\UnicornCreations\UnicornCreations\Static\less\tables.less on line 174, column 29:
+173 // Generate the contextual variants
+174 .table-row-variant(success; @state-success-bg; @state-success-border);
+175 .table-row-variant(danger; @state-danger-bg; @state-danger-border);
+
+
+ */
